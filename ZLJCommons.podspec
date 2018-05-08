@@ -15,8 +15,6 @@ Pod::Spec.new do |s|
 
   s.frameworks   = 'Foundation'
 
-  s.preferred_dependency = 'Common'
-
   s.subspec 'Common' do |c|
     c.source_files = 'ZLJCommons/*.{h,m}'
   end
